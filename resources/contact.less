@@ -1,0 +1,102 @@
+@size: 20px;
+@link-color: rgba(0, 0, 0, 0.384) 0px 4px 8px;
+@conversion:32px;
+@conversion-1: @conversion/2px;
+@font-weight:400;
+
+.new-start {
+    width: 80%;
+    box-shadow: @link-color; 
+    background-image: url("../bg.png");
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 25%; 
+    border-radius: 4px; 
+}
+
+div.ns-first { 
+    padding-left: 96px; 
+}
+
+.new-start h4 { 
+    font-weight: 700; 
+    font-size: @conversion; 
+    margin-top: @size*2; 
+}
+
+.new-start p { 
+    font-weight: @font-weight; 
+    font-size: @conversion-1; 
+    margin-top: @size; 
+}
+
+.new-start .ns-cont img { 
+    width: @size; 
+    margin-right: 12px; 
+}
+
+.new-start .soc-media img { 
+    width: 24px; 
+    box-sizing: content-box; 
+    padding-right: @size*2+1; 
+}
+
+.new-start .soc-media { 
+    margin-bottom: 65px; 
+    margin-top: 161px; 
+}
+
+.ns-form > *, .ns-form label input[type=text] { 
+    display: block; 
+}
+
+.ns-form > *, .ns-form label input[type=text] { 
+    display: block; 
+} 
+.ns-form > label { 
+    font-weight: @font-weight; 
+    font-size: @size; 
+    margin-top:@conversion ; 
+} 
+.ns-form > label:first-of-type { 
+    margin-top: @size * 2; 
+} 
+.ns-form input[type=text] { 
+    padding: 5px; 
+    border: none; 
+    border-bottom: 1px solid #333333; 
+    font-weight: @font-weight; 
+    font-size: @conversion-1 - 2; 
+    width: 263px; 
+}
+
+.ns-form h6 { 
+    padding-top:@conversion; 
+    font-weight: 600; 
+    font-size: @size; 
+}
+
+.ns-services { 
+    font-weight: @font-weight;
+    font-size: @conversion +2;
+}
+
+.ns-services label { 
+    padding-right: @size; 
+    padding-top: @conversion-1;
+}
+
+.ns-form button { 
+    margin-top: 66px; 
+    font-weight: @font-weight; 
+    font-size: @conversion-1 + 2; 
+    width: 175px; 
+    height: 53px; 
+}
+
+.menu-nav{
+    margin-bottom: 200px;
+}
+.c-form{
+    padding: 2vw;
+}
